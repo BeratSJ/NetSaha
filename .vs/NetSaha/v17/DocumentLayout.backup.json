@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\udpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|d:\\yaz\u0131l\u0131mlar\u0131m\\repos\\beratsj\\netsaha\\netsaha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE4F9813-1E2E-41D2-B909-927C6833C64E}|NetSaha\\NetSaha.csproj|solutionrelative:netsaha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,21 +50,34 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UDPServer.cs",
+              "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPServer.cs",
+              "RelativeDocumentMoniker": "NetSaha\\UDPServer.cs",
+              "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPServer.cs",
+              "RelativeToolTip": "NetSaha\\UDPServer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T15:44:40.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\Form1.cs",
               "RelativeDocumentMoniker": "NetSaha\\Form1.cs",
               "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\Form1.cs",
               "RelativeToolTip": "NetSaha\\Form1.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAYwDYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T17:57:31.544Z",
               "EditorCaption": ""
@@ -72,38 +85,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UDPServer.cs",
-              "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPServer.cs",
-              "RelativeDocumentMoniker": "NetSaha\\UDPServer.cs",
-              "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPServer.cs",
-              "RelativeToolTip": "NetSaha\\UDPServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:56:20.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UDPClient.cs",
-              "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPClient.cs",
-              "RelativeDocumentMoniker": "NetSaha\\UDPClient.cs",
-              "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPClient.cs",
-              "RelativeToolTip": "NetSaha\\UDPClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:56:19.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\Program.cs",
               "RelativeDocumentMoniker": "NetSaha\\Program.cs",
               "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\Program.cs",
               "RelativeToolTip": "NetSaha\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T17:56:08.791Z",
               "EditorCaption": ""
@@ -111,6 +98,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UDPClient.cs",
+              "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPClient.cs",
+              "RelativeDocumentMoniker": "NetSaha\\UDPClient.cs",
+              "ToolTip": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\UDPClient.cs",
+              "RelativeToolTip": "NetSaha\\UDPClient.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAvwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:56:19.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Tasar\u0131m]",
               "DocumentMoniker": "D:\\Yaz\u0131l\u0131mlar\u0131m\\Repos\\BeratSJ\\NetSaha\\NetSaha\\Form1.cs",
               "RelativeDocumentMoniker": "NetSaha\\Form1.cs",
@@ -119,10 +119,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T17:48:01.403Z",
               "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

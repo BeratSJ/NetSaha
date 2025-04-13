@@ -15,7 +15,8 @@ namespace NetSaha
         private UdpClient udpClient;
         private Thread soundThread;
         private IWaveIn waveIn;
-        private WaveFormat waveFormat = new WaveFormat(44100, 1); 
+        private WaveFormat waveFormat = new WaveFormat(44100, 1);
+        private string Message;
         public Form1()
         {
             InitializeComponent();
@@ -44,15 +45,15 @@ namespace NetSaha
                 return;
             }
 
-            string hedefIP = "127.0.0.1"; 
+            string hedefIP = "127.0.0.1";
             string sunucuIP = GetLocalIPAddress();
             hedefIP = sunucuIP;
 
-           
-            string mesaj = $"{kullaniciIsmi} connected."; 
+
+            string mesaj = $"{kullaniciIsmi} connected.";
             byte[] byteMesaj = Encoding.UTF8.GetBytes(mesaj);
 
-            client.SendMessage(hedefIP, byteMesaj); 
+            client.SendMessage(hedefIP, byteMesaj);
             LogYaz($"[{kullaniciIsmi}] connected.");
         }
 
@@ -65,7 +66,7 @@ namespace NetSaha
                 return;
             }
 
-            kullaniciIsmi = NameTextBox.Text.Trim(); 
+            kullaniciIsmi = NameTextBox.Text.Trim();
             MessageBox.Show("Name is Saved!", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -101,7 +102,7 @@ namespace NetSaha
         {
             waveIn = new WaveInEvent();
 
-           
+
             for (int deviceIndex = 0; deviceIndex < WaveIn.DeviceCount; deviceIndex++)
             {
                 var deviceInfo = WaveIn.GetCapabilities(deviceIndex);
@@ -125,7 +126,7 @@ namespace NetSaha
         }
 
 
-        
+
         private void StartListeningForVoice()
         {
             // Gelen ses verisini alacak ve çalacak
@@ -158,16 +159,39 @@ namespace NetSaha
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-           
+
             waveIn?.StopRecording();
             waveIn?.Dispose();
         }
 
         private void StartVoiceChatButton_Click(object sender, EventArgs e)
         {
-            
+
             StartVoiceRecording();
             StartListeningForVoice();
+        }
+
+        private void SendMessageButton_Click(object sender, EventArgs e)
+        {
+            Message = MessageTextBox.Text.Trim();
+            if (string.IsNullOrWhiteSpace(Message))
+            {
+                MessageBox.Show("Message cannot be empty!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                string hedefIP = GetLocalIPAddress();
+                string mesaj = $"{kullaniciIsmi}: {Message}";
+                byte[] byteMesaj = Encoding.UTF8.GetBytes(mesaj);
+                client.SendMessage(hedefIP, byteMesaj);
+                LogYaz($"[{kullaniciIsmi}]: {Message}");
+            }
+        }
+
+        private void closeSahaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

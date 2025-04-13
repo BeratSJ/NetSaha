@@ -31,7 +31,7 @@ public class UDPServer
             {
                 byte[] receivedBytes = udpListener.Receive(ref remoteEndPoint);
                 string receivedMessage = Encoding.UTF8.GetString(receivedBytes);
-                OnMessageReceived?.Invoke($"[GELEN] {remoteEndPoint}: {receivedMessage}");
+             // OnMessageReceived?.Invoke($"[GELEN] {remoteEndPoint}: {receivedMessage}");
             }
             catch (Exception ex)
             {
